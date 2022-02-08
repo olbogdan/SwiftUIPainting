@@ -23,7 +23,7 @@
 		682BC1A527AC22FD00314011 /* SideActiveEllipseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideActiveEllipseView.swift; sourceTree = "<group>"; };
 		682BC1A727AC478600314011 /* ImageFromSvgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromSvgView.swift; sourceTree = "<group>"; };
 		682BC1A927AD3C1200314011 /* PageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorView.swift; sourceTree = "<group>"; };
-		68440F7C27ABE2A1001CB650 /* HappyBrushPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBrushPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68440F7C27ABE2A1001CB650 /* SwiftUIPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68440F7F27ABE2A1001CB650 /* HappyBrushPaintingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBrushPaintingApp.swift; sourceTree = "<group>"; };
 		68440F8127ABE2A1001CB650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68440F8327ABE2A2001CB650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		68440F7327ABE2A1001CB650 = {
 			isa = PBXGroup;
 			children = (
-				68440F7E27ABE2A1001CB650 /* HappyBrushPainting */,
+				68440F7E27ABE2A1001CB650 /* SwiftUIPainting */,
 				68440F7D27ABE2A1001CB650 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +55,12 @@
 		68440F7D27ABE2A1001CB650 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68440F7C27ABE2A1001CB650 /* HappyBrushPainting.app */,
+				68440F7C27ABE2A1001CB650 /* SwiftUIPainting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		68440F7E27ABE2A1001CB650 /* HappyBrushPainting */ = {
+		68440F7E27ABE2A1001CB650 /* SwiftUIPainting */ = {
 			isa = PBXGroup;
 			children = (
 				68440F7F27ABE2A1001CB650 /* HappyBrushPaintingApp.swift */,
@@ -74,7 +74,7 @@
 				682BC1A927AD3C1200314011 /* PageIndicatorView.swift */,
 				68FB3B1D27B1606200DDDCCB /* CircleChart.swift */,
 			);
-			path = HappyBrushPainting;
+			path = SwiftUIPainting;
 			sourceTree = "<group>";
 		};
 		68440F8527ABE2A2001CB650 /* Preview Content */ = {
@@ -102,7 +102,7 @@
 			);
 			name = HappyBrushPainting;
 			productName = HappyBrushPainting;
-			productReference = 68440F7C27ABE2A1001CB650 /* HappyBrushPainting.app */;
+			productReference = 68440F7C27ABE2A1001CB650 /* SwiftUIPainting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68440F7727ABE2A1001CB650 /* Build configuration list for PBXProject "HappyBrushPainting" */;
+			buildConfigurationList = 68440F7727ABE2A1001CB650 /* Build configuration list for PBXProject "SwiftUIPainting" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -292,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HappyBrushPainting/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPainting/Preview Content\"";
 				DEVELOPMENT_TEAM = 4U2DW67G88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -307,7 +307,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bogdanov.HappyBrushPainting;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftUIPainting;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HappyBrushPainting/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIPainting/Preview Content\"";
 				DEVELOPMENT_TEAM = 4U2DW67G88;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -336,7 +336,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bogdanov.HappyBrushPainting;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SwiftUIPainting;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68440F7727ABE2A1001CB650 /* Build configuration list for PBXProject "HappyBrushPainting" */ = {
+		68440F7727ABE2A1001CB650 /* Build configuration list for PBXProject "SwiftUIPainting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68440F8827ABE2A2001CB650 /* Debug */,
