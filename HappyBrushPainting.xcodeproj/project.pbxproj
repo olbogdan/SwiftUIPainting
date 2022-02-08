@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682BC1A627AC22FD00314011 /* SideActiveEllipseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BC1A527AC22FD00314011 /* SideActiveEllipseView.swift */; };
+		682BC1A827AC478600314011 /* ImageFromSvgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BC1A727AC478600314011 /* ImageFromSvgView.swift */; };
+		682BC1AA27AD3C1200314011 /* PageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682BC1A927AD3C1200314011 /* PageIndicatorView.swift */; };
 		68440F8027ABE2A1001CB650 /* HappyBrushPaintingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68440F7F27ABE2A1001CB650 /* HappyBrushPaintingApp.swift */; };
 		68440F8227ABE2A1001CB650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68440F8127ABE2A1001CB650 /* ContentView.swift */; };
 		68440F8427ABE2A2001CB650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68440F8327ABE2A2001CB650 /* Assets.xcassets */; };
 		68440F8727ABE2A2001CB650 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68440F8627ABE2A2001CB650 /* Preview Assets.xcassets */; };
+		68440F8E27ABE315001CB650 /* TopFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68440F8D27ABE315001CB650 /* TopFrontView.swift */; };
+		68440F9027ABE337001CB650 /* SideActiveHalfcircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68440F8F27ABE337001CB650 /* SideActiveHalfcircleView.swift */; };
+		68FB3B1E27B1606200DDDCCB /* CircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FB3B1D27B1606200DDDCCB /* CircleChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		682BC1A527AC22FD00314011 /* SideActiveEllipseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideActiveEllipseView.swift; sourceTree = "<group>"; };
+		682BC1A727AC478600314011 /* ImageFromSvgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromSvgView.swift; sourceTree = "<group>"; };
+		682BC1A927AD3C1200314011 /* PageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicatorView.swift; sourceTree = "<group>"; };
 		68440F7C27ABE2A1001CB650 /* HappyBrushPainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBrushPainting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68440F7F27ABE2A1001CB650 /* HappyBrushPaintingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBrushPaintingApp.swift; sourceTree = "<group>"; };
 		68440F8127ABE2A1001CB650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68440F8327ABE2A2001CB650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68440F8627ABE2A2001CB650 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68440F8D27ABE315001CB650 /* TopFrontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopFrontView.swift; sourceTree = "<group>"; };
+		68440F8F27ABE337001CB650 /* SideActiveHalfcircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideActiveHalfcircleView.swift; sourceTree = "<group>"; };
+		68FB3B1D27B1606200DDDCCB /* CircleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				68440F8127ABE2A1001CB650 /* ContentView.swift */,
 				68440F8327ABE2A2001CB650 /* Assets.xcassets */,
 				68440F8527ABE2A2001CB650 /* Preview Content */,
+				68440F8D27ABE315001CB650 /* TopFrontView.swift */,
+				682BC1A727AC478600314011 /* ImageFromSvgView.swift */,
+				68440F8F27ABE337001CB650 /* SideActiveHalfcircleView.swift */,
+				682BC1A527AC22FD00314011 /* SideActiveEllipseView.swift */,
+				682BC1A927AD3C1200314011 /* PageIndicatorView.swift */,
+				68FB3B1D27B1606200DDDCCB /* CircleChart.swift */,
 			);
 			path = HappyBrushPainting;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68FB3B1E27B1606200DDDCCB /* CircleChart.swift in Sources */,
 				68440F8227ABE2A1001CB650 /* ContentView.swift in Sources */,
+				682BC1AA27AD3C1200314011 /* PageIndicatorView.swift in Sources */,
+				682BC1A827AC478600314011 /* ImageFromSvgView.swift in Sources */,
+				682BC1A627AC22FD00314011 /* SideActiveEllipseView.swift in Sources */,
+				68440F9027ABE337001CB650 /* SideActiveHalfcircleView.swift in Sources */,
 				68440F8027ABE2A1001CB650 /* HappyBrushPaintingApp.swift in Sources */,
+				68440F8E27ABE315001CB650 /* TopFrontView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
